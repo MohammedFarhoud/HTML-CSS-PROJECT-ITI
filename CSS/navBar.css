@@ -54,12 +54,7 @@
     color: white;
   }
   
-  .navBar li:nth-child(n+1):hover {
-    padding-bottom: 0.65rem;
-    border-bottom: solid 3.5px rgba(255,255,255,0.7);
-  }
-  
-  .navBar li:nth-child(1) {
+  .navBar li a:nth-child(n+1):hover {
     padding-bottom: 0.65rem;
     border-bottom: solid 3.5px rgba(255,255,255,0.7);
   }

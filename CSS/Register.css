@@ -68,11 +68,7 @@
     color: rgba(0, 0, 60, 1);
 }
 
-.navBar li:not(:nth-child(5)) {
-    border-bottom: none;
-  }
-  
-.navBar li:nth-child(5) {
+.navBar li:nth-child(5) a {
     padding-bottom: 0.65rem;
     border-bottom: solid 3.5px rgba(255,255,255,0.7);
   }
