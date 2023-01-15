@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Project</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../CSS/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='../CSS/navBar.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src='/JS/main.js' defer></script>
+</head>
+<body>
+  <div class="mobile-menu-bar" >
+    <i class="fa fa-bars btn" id="btn-i" ></i>
+  </div>
+  <div class="navBar">
+    <a href="/HTML/index.html"><img src="../Images/ballLogo.png" alt="Home Page"></a>
+      <ul class="ulMenu">
+        <li><a href="/HTML/index.html"><span><i class="fa-solid fa-house"></i></span> Home</a></li>
+        <li><a href="/HTML/ContactUs.html"><i class="fa-solid fa-square-phone"></i></span> Contact us</a></li>
+        <li><a href="/HTML/Players.html"><i class="fa-solid fa-users"></i></span> Players</a></li>
+        <li><a href="../HTML/Login.html"><i class="fa-solid fa-user"></i></span> Login</a></li>
+        <li><a id="register" href="/HTML/Register.html"><i class="fa-solid fa-user-plus"></i></span> Register</a></li>
+      </ul>
+      <div class="clear-fix"></div>
+  </div>
+  <div class="slider">
+    <img src="/Images/1.webp" alt="" id="sliderImg">
+    <div class="buttons">
+      <i class="fa-solid fa-angle-right" onclick="nextImage()"></i>
+      <i class="fa-solid fa-angle-left" onclick="prevImage()"></i>
+    </div>
+  </div>
+  <div class="latest-news">
+    <h2>Latest News</h2>
+    <div class="news">
+      <img src="../Images/Argentina.jpg" alt="">
+      <h3><a href="/HTML/News1.html">World Cup Winners</a></h3>
+      <p>Argentina won its third World Cup in extraordinary style on Sunday, beating France 4-2 in a penalty shootout after Lionel Messi scored twice in a 3-3 draw.</p>
+    </div>
+    <div class="news">
+      <img src="../Images/worldCup.jpeg" alt="">
+      <h3><a href="/HTML/News2.html">FIFA Club World Cup</a></h3>
+      <p>FIFA have officially announced that the 2022 FIFA Club World Cup will be played in Morocco from February 1st to February 11th.</p>
+    </div>
+    <div class="news">
+      <img src="../Images/arsenal.jpg" alt="">
+      <h3><a href="/HTML/News3.html">Gunners on Top</a></h3>
+      <p>Mikel Arteta’s men have extended their lead over Manchester City to five points tonight after playing out a goalless draw with Newcastle at the Emirates Stadium.</p>
+    </div>
+    <div class="news">
+      <img src="../Images/CR7Nasr.jpg" alt="">
+      <h3><a href="/HTML/News4.html">CR7 to Al-Nasr</a></h3>
+      <p> Ronaldo completed a lucrative move to Saudi Arabian club Al Nassr on Friday in a deal that is a landmark moment for Middle Eastern soccer.</p>
+    </div>
+    <div class="clear-fix"></div>
+  </div>
+  <div class="footer">
+    <div class="ulFooter">
+      <h3>Our services</h3>
+      <ul>
+        <li>General News</li>
+        <li>Favourite Club</li>
+        <li>Fantasy Football</li>
+        <li>Match statistics</li>
+        <li>Predicted Results</li>
+      </ul>
+    </div>
+    <div class="ulFooter">
+      <h3>Website</h3>
+      <ul>
+        <li>About</li>
+        <li>Users</li>
+        <li>Terms and conditions</li>
+        <li>Contact us</li>
+        <li>FAQs</li>
+      </ul>
+    </div>
+    <div class="ulFooter">
+      <h3>Important Links</h3>
+      <ul>
+        <li>FIFA</li>
+        <li>UEFA</li>
+        <li>CAF</li>
+        <li>CONMEBOL</li>
+        <li>CONCACAF</li>
+      </ul>
+    </div>
+    <div class="ulFooter">
+      <h3>Follow us</h3>
+      <ul class="footer-logos">
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+      </ul>
+    </div>
+    <div class="ulFooter">
+      <h3 id="copy-rights">Copyrights</h3>
+      <p>©2023 Revision Legal. All Rights Reserved.</p>
+    </div>
+    <div class="clear-fix"></div>
+  </div>
+</body>
+</html>

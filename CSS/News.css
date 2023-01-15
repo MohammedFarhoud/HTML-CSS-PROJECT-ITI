@@ -1,0 +1,60 @@
+.clear-fix {
+    clear: both;
+}
+
+.sports-news {
+    display: block;
+    margin: 10rem auto 0 auto;
+    width: 80%;
+}
+
+.sports-news img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.sports-news h2 {
+    float: left;
+    font-size: 2rem;
+    margin: 0 0 2rem 1rem;
+    width: 40%;
+}
+
+.sports-news p {
+    float: left;
+    font-size: 1.2rem;
+    margin: 0 0 2rem 1rem;
+    width: 40%;
+}
+
+.navBar li:nth-child(1) {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 810px)
+{
+    .sports-news {
+        margin: 5rem auto 0 auto;
+    }
+
+    .sports-news img {
+        width: 100%;
+    }
+
+    .sports-news h2 {
+        width: 100%;
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .sports-news p {
+        width: 100%;
+        display: block;
+        padding: 0 0;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,134 @@
+.slider {
+  width: 60%;
+  margin-top: 80px;
+  margin: 6rem auto 2rem;
+}
+
+.slider img {
+  width: 100%;
+  height: 60vh;
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(0.1rem);
+  box-shadow: 0 0 40px rgba(0,0,0,1);
+}
+
+.slider {
+  position: relative;
+}
+
+.slider div i:nth-child(1) {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  right: 0px;
+  font-size: 2.5rem;
+}
+
+.slider div i:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 0px;
+  font-size: 2.5rem;
+}
+
+.slider div i:hover {
+  cursor: pointer;
+}
+
+.latest-news {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.1rem);
+  box-shadow: 0 0 40px rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+.news {
+  width: 23%;
+  float: left;
+  text-align: center;
+  padding: 0 0vw 5vh;
+  margin: 0 1% 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(0.1rem);
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+.news img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 0.2rem;
+  backdrop-filter: blur(0.1rem);
+  box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+.news h3 a{
+  font-family: 'segoe ui light';
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.news h3 a:hover {
+  color: rgba(0, 0, 60,1);
+  ;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.1rem);
+    box-shadow: 0 0 40px rgba(0,0,0,0.7);
+}
+
+.footer .ulFooter{
+  width: 20%;
+  float: left;
+  text-align: left;
+}
+
+.footer ul , .footer p{
+  padding: 0 0 0 2.5rem;
+}
+
+.footer ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer h3 {
+  padding: 0px 0px 0px 2.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer .ulFooter .footer-logos li{
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .footer .ulFooter {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .footer .ulFooter li {
+    display: inline;
+    width: 100%;
+    padding-right: 1rem;
+  }
+
+  .footer .ulFooter .footer-logos li{
+    display: inline;
+  }
+}

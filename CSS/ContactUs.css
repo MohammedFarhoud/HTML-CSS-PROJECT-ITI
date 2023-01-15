@@ -1,0 +1,87 @@
+h2 {
+    margin: 5rem 0rem 0 1rem;
+}
+
+form {
+    font-family: 'segoe ui light';
+    color: white;
+}
+
+.contact-info {
+    text-align: center;
+    width: 40rem;
+    margin: 1rem auto;
+    padding: 1.5rem 0rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(0.1rem);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 40px rgba(0,0,0,0.7);
+}
+
+.contact-info .email {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-info .message {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contact-info label {
+    display: inline-block;
+    width: 15%;
+    font-weight: 700;
+}
+
+.contact-info .email input {
+    display: inline-block;
+    height: 2rem;
+    width: 80%;
+}
+
+.contact-info .message textarea {
+    resize: none;
+    width: 80%;
+    vertical-align: top;
+}
+
+.contact-info button {
+    display: block;
+    margin: 1rem auto 0rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    border:  2px solid rgba(0, 0, 60, 0.5);;
+    cursor: pointer;
+    background-color: rgba(0, 0, 60,0.9);
+    color: white;
+}
+
+.contact-info button:hover {
+    background-color: white;
+    border: 2px solid rgba(0, 0, 60, 0.6);
+    color: rgba(0, 0, 60, 1);
+}
+
+.navBar li:not(:nth-child(2)) {
+    border-bottom: none;
+  }
+  
+.navBar li:nth-child(2) {
+    padding-bottom: 0.65rem;
+    border-bottom: solid 3.5px rgba(255,255,255,0.7);
+  }
+
+@media only screen and (max-width: 768px)
+{
+    .contact-info {
+        width: 80%;
+    }
+
+    .contact-info label {
+        display: block;
+        width: 100%;
+    }
+}

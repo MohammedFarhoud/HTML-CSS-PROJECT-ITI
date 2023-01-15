@@ -1,0 +1,52 @@
+.players-table {
+    overflow: auto;
+}
+
+table caption {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+th {
+    height: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    vertical-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 4rem auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 3px white solid;
+}
+
+td,th {
+    padding: 0.5rem;
+    border: 2px white solid;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+tr:hover {
+    background-color: rgba(255, 255, 255,0.5);
+}
+
+.navBar li:not(:nth-child(3)) {
+    border-bottom: none;
+  }
+  
+.navBar li:nth-child(3) {
+    padding-bottom: 0.65rem;
+    border-bottom: solid 3.5px rgba(255,255,255,0.7);
+  }
